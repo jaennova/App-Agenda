@@ -14,11 +14,14 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String COLUMN_ID = "id";
     public static final String COLUMN_NAME = "name";
     public static final String COLUMN_EMAIL = "email";
+    public static final String COLUMN_PHONE = "phone";
+
 
     // Consulta SQL para crear la tabla
     private static final String CREATE_TABLE = "CREATE TABLE " + TABLE_CONTACTS + " ("
             + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
             + COLUMN_NAME + " TEXT NOT NULL, "
+            + COLUMN_PHONE + "TEXT NOT NULL,"
             + COLUMN_EMAIL + " TEXT)";
 
     public DatabaseHelper(Context context) {
