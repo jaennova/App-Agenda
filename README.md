@@ -18,5 +18,5 @@ Desarrollo de una aplicacion Android usando Java y Kotlin como lenguajes de prog
 
 ## Crear un nuevo proyecto en Android Studio:
 
-- Abrir Android Studio y crear un nuevo proyecto del tipo `Empty Views Activity`, asignarle el nombre y finalizar paso; puedes usar Java o Kotlin como lenguaje.
+- Abrir Android Studio y crear un nuevo proyecto del tipo `Empty Views Activity`, asignarle el nombre y finalizar paso; puedes usar Java o Kotlin como lenguaje
 
